@@ -1,0 +1,15 @@
+{
+  "name": "Wizeline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "testcafe chrome src/todoist/test/login.tests.js --selector-timeout 3000"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "testcafe": "^1.8.2"
+  }
+}
